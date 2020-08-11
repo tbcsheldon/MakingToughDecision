@@ -57,6 +57,8 @@ collections:
     slug: "{{slug}}"
     preview_path: "question/{{slug}}"
     create: true
+    extension: “json"
+    format: "json"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
