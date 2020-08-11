@@ -65,13 +65,13 @@ collections:
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "Cost", name: "cost", widget: "string"}
-              
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields:
+            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Cost", name: "cost", widget: "string"}
+
   - label: "Globals"
     name: "globals"
     files:
